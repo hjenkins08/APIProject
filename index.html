@@ -31,6 +31,12 @@
                     return false;
                 });
             })
+             $(document).ready(function (){
+                $(".submit").click(function() {
+                    alert( "Your form has been submitted!" );
+                    return false;
+                });
+            })
             </script>
 
 <script>
@@ -216,7 +222,7 @@
                             </label>
                         </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Register</button>
+                        <button type="submit" class="btn submit btn-primary">Register</button>
                     </form>
 
 
