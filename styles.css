@@ -1,0 +1,47 @@
+.navbar-brand1 {
+    font-size: 40px;
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    color: black;
+    justify-content: flex-end;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 480px){
+    .carousel-item {
+        min-height:20rem;
+    }
+}
+@media only screen and (min-width: 481px){
+    .carousel-item {
+        min-height:20rem;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .carousel-item {
+        min-height:40rem;
+    }
+    
+}
+
+.ul, li {
+    display: inline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.card {
+    margin-top: 30px;
+}
